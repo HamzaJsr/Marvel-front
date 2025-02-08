@@ -1,0 +1,91 @@
+.comics-page {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.comics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.comic-card {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #e62429;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.comic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.comic-card img {
+  width: 100%;
+  display: block;
+}
+
+.comic-card h2 {
+  font-size: 1.1rem;
+  margin: 10px 0 5px;
+  text-align: center;
+  color: #e62429;
+}
+
+.comic-card p {
+  font-size: 0.9rem;
+  margin: 0 10px 10px;
+  height: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pagination button {
+  background-color: #e62429;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #b71c1c;
+}
+
+.pagination span {
+  font-size: 1.1rem;
+}

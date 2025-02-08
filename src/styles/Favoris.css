@@ -1,0 +1,62 @@
+.favoris-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.9);
+  /color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.favoris-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.favoris-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.favoris-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.favoris-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+}
+
+.favoris-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.favoris-card h2 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.favoris-card p {
+  font-size: 0.9rem;
+  color: #ddd;
+  margin-top: 5px;
+}
+
+.favoris-empty {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-top: 20px;
+}

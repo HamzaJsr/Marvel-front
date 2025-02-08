@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 15px 30px;
+  box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.3);
+}
+
+.logo img {
+  width: 120px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.menu a.active {
+  color: red;
+  font-weight: bold;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+}
+
+.logout-button,
+.login-button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.logout-button:hover,
+.login-button:hover {
+  background: darkred;
+}

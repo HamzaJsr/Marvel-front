@@ -1,0 +1,53 @@
+.comic-detail-page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.back-button {
+  background-color: #e62429;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #b71c1c;
+}
+
+.comic-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.comic-img {
+  width: 100%;
+  max-width: 300px;
+  border: 2px solid #e62429;
+  border-radius: 10px;
+}
+
+.comic-text {
+  flex: 1;
+}
+
+.comic-text h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #e62429;
+}
+
+.comic-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
